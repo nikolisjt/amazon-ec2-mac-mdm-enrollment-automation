@@ -1,3 +1,6 @@
+# This was forked to create a fix for Sequoia which has now been adjusted in the primary Repo bu dx01.
+## Please refer to the primary AWS instance; this is Archived.
+
 # enroll-ec2-mac: Welcome!
 
 enroll-ec2-mac is an AppleScript made to **automatically enroll** [Amazon Web Services Elastic Compute Cloud (EC2) Mac instances](https://aws.amazon.com/ec2/instance-types/mac/) into a **mobile device management (MDM)** solution. enroll-ec2-mac is made to ensure the MDM “pairing“ relationship isn't broken for MDM enrollment. Without that pairing, an EC2 Mac instance isn’t able to ”listen“ for new or updated profiles from the MDM server. enroll-ec2-mac performs all of this without any user interaction after AMI configuration (as per the instructions below). Included is a subroutine to automate the issuance and retrieval of **Jamf** enrollment profiles and more MDM providers below. 
